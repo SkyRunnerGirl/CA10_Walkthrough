@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 10 Walkthrough</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" />
+</head>
+<body>
+    <table class="table table-light table-striped">
+        <thead class="tHead">
+            <th>#</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Favorite Color</th>
+        </thead>
+        <tbody id="tBody">
+            <tr>
+                <td>Ex.</td>
+                <td>Rebecca</td>
+                <td>McGirr</td>
+                <td>Purple</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form>
+        <div>
+            <label for="firstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="firstName" />
+        </div>
+        <div>
+            <label for="lastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="lastName" />
+        </div>
+        <div>
+            <label for="favoriteColor" class="form-label">Favorite Color</label>
+            <input type="text" class="form-control" id="favoriteColor" />
+        </div>
+        <div>
+            <button type="submit" class="btn btn-primary mt-3" id="formSubmit">Submit</button>
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+</body>
+</html>
